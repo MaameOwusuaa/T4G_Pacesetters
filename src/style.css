@@ -1,0 +1,13 @@
+.small_container{
+    border: 1px solid black;
+}
+
+.color{
+    width: 150px;
+    height: 100px;
+
+}
+
+.violet{
+    background-color: violet;
+}
