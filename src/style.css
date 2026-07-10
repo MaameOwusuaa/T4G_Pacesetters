@@ -99,3 +99,37 @@ body{
    font-family: Arial, Helvetica, sans-serif; 
    background: white;
 }
+
+/* Cynthia's code */
+.small_container{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+
+}
+
+.color{
+    width: 300px;
+    height: 150px;
+
+}
+
+.violet{
+    background-color: violet;
+}
+.cyan{
+    background-color: cyan;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.big_container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    gap: 5px;
+}
