@@ -9,10 +9,39 @@
 .color{
     width: 300px;
     height: 150px;
+
 }
 
 .violet{
     background-color: violet;
+}
+.Orange{
+    background-color: orange;
+}
+.violet{
+    background-color: violet;
+}
+.Cyan{
+    background-color: cyan;
+}
+.green{
+    background-color: green;
+}
+
+.small_container{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 250px;
+    width:300px ;
+}
+
+.big_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+
+    
 }
 
 .navbar{
