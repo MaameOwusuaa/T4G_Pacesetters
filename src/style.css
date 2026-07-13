@@ -1,6 +1,18 @@
 .color{
     width: 300px;
     height: 150px;
+.small_container{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+
+}
+
+.color{
+    width: 300px;
+    height: 150px;
+
 }
 
 .violet{
@@ -11,12 +23,35 @@
     background-color: cyan;
 }
 
+.Orange{
+    background-color: orange;
+}
+.violet{
+    background-color: violet;
+}
+.Cyan{
+    background-color: cyan;
+}
 .green{
     background-color: green;
 }
 
 .orange{
     background-color: orange;
+.small_container{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 250px;
+    width:300px ;
+}
+
+.big_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+
+    
 }
 
 .navbar{
@@ -89,3 +124,36 @@ body{
     width:300px ;
 }
 
+/* Cynthia's code */
+.small_container{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+
+}
+
+.color{
+    width: 300px;
+    height: 150px;
+
+}
+
+.violet{
+    background-color: violet;
+}
+.cyan{
+    background-color: cyan;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.big_container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    gap: 5px;
+}
