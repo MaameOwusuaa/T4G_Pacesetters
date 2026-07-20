@@ -1,83 +1,30 @@
-
-.small_container{
-    margin-top: 20px;
-    border: 1px solid black;
-    height: 250px;
-    width: 300px;
-
+/* Base Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
 }
 
-.color{
-    width: 300px;
-    height: 150px;
-
-}
-
-.violet{
-    background-color: violet;
-}
-
-.cyan{
-    background-color: cyan;
-}
-
-.Orange{
-    background-color: orange;
-}
-.violet{
-    background-color: violet;
-}
-.Cyan{
-    background-color: cyan;
-}
-.green{
-    background-color: green;
-}
-
-.orange{
-    background-color: orange;
-}
-
-.small_container{
-    margin-top: 20px;
-    border: 2px solid black;
-    height: 250px;
-    width:300px ;
-}
-
-.big_container{
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    flex-wrap: wrap;
-
-    
-}
-
-.navbar{
+/* Navigation Bar */
+.navbar {
     background: green;
     color: white;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 0 20px;
-    color: white;
 }
 
-.nav_left{
+.nav_left, .nav_right {
     display: flex;
     align-items: center;
 }
 
-.nav_right{
-    display: flex;
+.nav_right {
     justify-content: flex-end;
-    align-items: center;
 }
 
-.logo{
+.logo {
     width: 15px;
     height: 15px;
     display: flex;
@@ -88,12 +35,12 @@
     padding-right: 30px;
 }
 
-.help{
+.help {
     font-size: 20px;
     cursor: pointer;
 }
 
-.avatar{
+.avatar {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -105,59 +52,55 @@
     font-weight: bold;
 }
 
-body{
-   font-family: Arial, Helvetica, sans-serif; 
-   background: white;
-}
-
-.big_container{
+/* Containers */
+.big_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 5px;
 }
 
-.small_container{
-    margin-top: 20px;
-    border: 2px solid black;
-    height: 250px;
-    width:300px ;
+/* .big_container:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Added color value for valid shadow */
+ 
+
+
+.small_container:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Cynthia's code */
-.small_container{
+.small_container {
     margin-top: 20px;
     border: 1px solid black;
     height: 250px;
     width: 300px;
-
 }
 
-.color{
+.color {
     width: 300px;
     height: 150px;
-
 }
 
-.violet{
-    background-color: violet;
+/* Color Classes */
+.violet {
+     background-color: violet; 
 }
-.cyan{
-    background-color: cyan;
+.cyan {
+     background-color: cyan; 
 }
-.green{
-    background-color: green;
+.green { 
+    background-color: green; 
 }
-.orange{
-    background-color: orange;
+.orange {
+     background-color: orange; 
 }
-.big_container{
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+
+/* Flexbox Layout Containers */
+.big_container {
     display: flex;
-    gap: 5px;
-}
-
-.big_container:hover{
-    box-shadow: 0px 5px 15px;
+    flex-direction: row;      
+    flex-wrap: wrap;          
+    gap: 20px;                
+    padding: 10px;
 }
